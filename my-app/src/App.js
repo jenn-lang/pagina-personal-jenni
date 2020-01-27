@@ -3,27 +3,34 @@ import logo from './logo.svg';
 import './App.css';
 
 
-class formulario extends React.Component{
+
+
+// en funcion no se pone los textos del html sino en clase//
+// poner con mayuscula las clases y funciones//
+
+class DatosPersonales extends React.Component{
   render(){
-  return <input  >{this.props.label}</input>;
-  }
+  return (
+  <div>
+       <h2>Nombre: Jennifer</h2>
+        
+  </div>
+  );
 
 }
-
-function App() {
+}
+function App() {        
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          Jennifer  Vallejos
-        </h1>
-        
-        <input />
-      </header>
+        <h1>datos</h1>
+        <DatosPersonales/>
+        </header>
     </div>
   );
 }
+
 
 
 
