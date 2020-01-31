@@ -1,0 +1,40 @@
+
+
+.contenedor{ 
+    width: 800px;
+    height: 800px;
+    background-color: aquamarine;
+    
+    
+    
+}
+
+/*ver como modificar para lograr que me quede las imagenes en linea*/
+/*quiero separar la caja div de imagenes del contenedor,como:con un margen para separar un contenedor de otro*
+como centrar caja de img no me sale*/
+
+.caja-imagenes{ 
+    width: 700px;
+    height: 750px;
+    background-color: blueviolet;
+    
+    /*margin:20px 20px;
+    margin: black;*/
+}
+    
+
+
+.titulo-galeria{
+    font-size: 25px;
+    color:black;
+    margin: 10px 5px;
+}
+
+.imagen{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px;
+   
+    
+ }
