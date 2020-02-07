@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+//import formulario from './';//
 
 function App() {
   return (
