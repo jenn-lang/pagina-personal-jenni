@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.css';
+import styles from './styles.module.css';
 
 
 import dog1 from './imagenes/dog1.jpeg';
@@ -19,7 +19,7 @@ import dog9 from './imagenes/dog9.jpeg';
 class Galeria extends React.Component{
     render(){
         return(
-            <div className="contenedor">
+            <div className={styles.contenedor}>
                 <div className="caja-imagenes">
                     <h2 className="titulo-galeria">Galeria</h2>
                     <img src={dog1} alt="dog" className="imagen"></img>
