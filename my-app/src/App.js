@@ -7,27 +7,22 @@ import Galeria from '../src/componentes/galeria';
 // en funcion no se pone los textos del html sino en clase//
 // poner con mayuscula las clases y funciones//
 
-class DatosPersonales extends React.Component{
-  render(){
-  return (
-  <div>
-       <h2>Nombre: Jennifer</h2>
+//class DatosPersonales extends React.Component{
+ // render(){
+  //return (
+  //<div>
+    //   <h2>Nombre: Jennifer</h2>
         
-  </div>
-  );
-
-}
-}
+  //</div>
+ // ej de como llamar en la funcion <Galeria src={Galeria}/><div className="App">
+     // <header className="App-header">
+        
+        
+     
 
 function App() {        
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>datos</h1>
-        <DatosPersonales/>
-        <Galeria src={Galeria}/>
-        </header>
-    </div>
+    <Principal src={Inicio}/>
   );
 }
 
