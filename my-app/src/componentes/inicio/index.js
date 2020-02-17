@@ -7,8 +7,8 @@ class Principal extends React.Component{
     render(){
         return(
             <div>
-                <h1>Jennifer Vallejos</h1>
-                <p>Lorem ipsum dolor sit amet, dolore magna aliqua. </p>
+                <img src=""></img>
+                <img src=""></img>
             </div>
         )
     }
@@ -19,10 +19,6 @@ function Inicio (){
         <Principal/>
     );
 }
-
-
-
-
 
 
 
