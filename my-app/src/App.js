@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Galeria from '../src/componentes/galeria';
+//import Galeria from '../src/componentes/galeria';
+import Inicio from '../src/componentes/inicio';
 
 
 //import logo from './logo.svg';y el logo estaba en fuction debajo de <header></header> escrito asi :<img src={logo} className="App-logo" alt="logo" />//
@@ -22,7 +23,7 @@ import Galeria from '../src/componentes/galeria';
 
 function App() {        
   return (
-    <Principal src={Inicio}/>
+    <Inicio src={Inicio}/>
   );
 }
 

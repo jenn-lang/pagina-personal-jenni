@@ -14,3 +14,5 @@ class SopaLetras extends React.Component{
         )
     }
 }
+
+export default SopaLetras;
