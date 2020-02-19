@@ -23,15 +23,11 @@ import Inicio from '../src/componentes/inicio';
 
 function App() {        
   return (
+    <body>
     <Inicio src={Inicio}/>
+    </body>
   );
 }
-
-
-
-
-
- 
 
 
 export default App;

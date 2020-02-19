@@ -1,11 +1,11 @@
 import React from 'react';
 //import styles from './styles.module.css';
-import SopaLetras from './componenetes/imagenes/'
+import SopaLetras from './componentes/sopaLetras';
 
 function Inicio (){
     return(
         <div>
-        <SopaLetras/>
+        <SopaLetras src={SopaLetras}/>
         
         </div>
     );

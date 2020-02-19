@@ -1,0 +1,59 @@
+
+
+
+.contenedor{
+    width: 500px;
+    height: 700px;
+    background-color: aquamarine;
+    margin: 20px;
+}
+.sopa{
+    object-fit: fill;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    align-self: center;
+    border: red solid 5px;
+    
+}
+
+
+.cuadro{
+    width: 130px;
+    height: 3px;
+    border: blue solid 2px;
+    border-radius: 5px;
+    padding: 10px 18px;
+    margin: -158px 148px;
+    position: absolute;
+    
+}
+
+/*.cuadro2{
+    width: 130px;
+    height: 3px;
+    border: blue solid 2px;
+    border-radius: 5px;
+    padding: 10px 18px;
+    margin: -158px 148px;
+    position: absolute;
+    
+}*/
+
+.subContenedor{
+    position: relative;
+    display: block;
+    justify-content: center;
+    margin: 40px ;
+}
+
+.botones{
+    border: blue solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 8px;
+    
+}
+
+
